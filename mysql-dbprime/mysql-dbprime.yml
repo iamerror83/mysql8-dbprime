@@ -1,0 +1,5 @@
+--- # Master Playbook for Web Servers
+- hosts: all
+  gather_facts: yes
+  roles:
+    - mysql-dbprime
